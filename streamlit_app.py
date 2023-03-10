@@ -42,7 +42,7 @@ try:
 	else:
 		Back_from_function =get_fruityvice_data(fruit_choice)
     		# write the data out to a table
-    		streamlit.dataframe(Back_from_function) 
+		streamlit.dataframe(Back_from_function) 
 except URLError as e:
 	streamlit.error()
 
